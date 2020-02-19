@@ -20,6 +20,10 @@ const renderProduct = (title = 'Mouse', price = 20) => {
     </div>`
 };
 
+/**
+ * Метод перебирает все объекты из массива и создает новый массив с исходными данными. 
+ * @param {object} list 
+ */
 const renderPage = list => {
     const productList = list.map(item => renderProduct(item.title, item.price)).join('');
     document.querySelector('.products').innerHTML = productList;
