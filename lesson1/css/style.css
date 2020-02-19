@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    width: 1280px;
+}
+header{
+    background-color: rgb(190, 190, 190);
+    width: 100%;
+    min-height: 50px;
+    margin: 0 0 20px 0;
+    position: relative;
+    background-image: url(../img/iStock_87538065_SMALL.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn-card{
+    position: absolute;
+    right: 100px;
+    top: 5px;
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    background-color: white;
+}
+.btn-card:hover{
+    background-color: aquamarine;
+}
+.btn-card:active{
+    background-color: lightgreen;
+}
+main{
+    width: 100%;
+}
+.products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product-item{
+    margin: 0 5px 0 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    min-width: 90px;
+    min-height: 120px;
+    text-align: center;
+    background-color: lightblue;
+}
+.buy-btn{
+    border-radius: 3px;
+    outline: none;
+}
+.buy-btn:hover{
+    background-color: aquamarine;
+}
+.buy-btn:active{
+    background-color: lightgreen;
+}
+button {
+    cursor: pointer;
+}
